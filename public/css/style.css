@@ -1,0 +1,35 @@
+.login-bg {
+    background-color: rgb(107, 122, 255);
+}
+
+.button-login-bg{
+    background-color: rgb(66,255,0);
+}
+.button-login-bg:hover {
+    background-color: rgb(66, 255, 0); /* Set the same background color as the normal state */
+}
+
+.bold-placeholder::placeholder {
+    font-weight: bold;
+    color: #000;
+}
+.custom-rounded-input {
+    border-radius: 10px; /* Adjust the value to control the roundness */
+}
+
+.toggle-show-password{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+}
+
+.toggle-show-password i{
+    color: #000; /* Set the icon color to match the field text color */
+    font-size: 18px; /* Adjust the icon size */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
